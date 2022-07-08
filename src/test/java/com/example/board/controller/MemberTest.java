@@ -13,6 +13,6 @@ class MemberTest {
                 .name("jun")
                 .build();
 
-        Assertions.assertEquals("jun", member.getName());
+        Assertions.assertEquals("junw", member.getName());
     }
 }
