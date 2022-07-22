@@ -36,6 +36,8 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew clean build --scan
 
+    - name: Build with Gradle
+      run: ./gradlew clean build --stacktrace
 #    - name: formatting code
 #      run: ./gradlew verGJF
 
