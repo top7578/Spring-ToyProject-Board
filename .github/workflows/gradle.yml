@@ -38,8 +38,9 @@ jobs:
       with:
         arguments: build
 
-    - uses: axel-op/googlejavaformat-action@v3
+    - name: Checking code format  
+      uses: axel-op/googlejavaformat-action@v3
       with:
         args: "--skip-sorting-imports --replace"
-        token: ${{ secrets.TOKEN }}
+        github_token: ${{ secrets.TOKEN }}
         
