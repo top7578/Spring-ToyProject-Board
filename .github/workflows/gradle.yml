@@ -41,4 +41,4 @@ jobs:
     - name: Checking code format  
       uses: axel-op/googlejavaformat-action@v3
       with:
-        args: "-n -offset -line -length"
+        args: "-offset -line -length --set-exit-if-changed"
