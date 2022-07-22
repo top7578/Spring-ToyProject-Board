@@ -34,10 +34,8 @@ jobs:
       run: chmod +x ./gradlew
       
     - name: Build with Gradle
-      run: ./gradlew clean build --scan
+      run: ./gradlew verGJF
 
-    - name: Build with Gradle
-      run: ./gradlew clean build --stacktrace
 #    - name: formatting code
 #      run: ./gradlew verGJF
 
