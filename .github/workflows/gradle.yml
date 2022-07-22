@@ -41,4 +41,4 @@ jobs:
     - name: Checking code format  
       uses: axel-op/googlejavaformat-action@v3
       with:
-        args: "--dry-run"
+        args: "--skip-sorting-imports --replace"
