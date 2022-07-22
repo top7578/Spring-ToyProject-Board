@@ -6,10 +6,10 @@ import lombok.Getter;
 @Builder
 @Getter
 public class Member {
-    Long id;
-    String name;
+  Long id;
+  String name;
 
-    public Member(Long id, String name) {
-        this.name = name;
-    }
+  public Member(Long id, String name) {
+    this.name = name;
+  }
 }
