@@ -41,6 +41,4 @@ jobs:
     - name: Checking code format  
       uses: axel-op/googlejavaformat-action@v3
       with:
-        args: "--skip-sorting-imports --replace"
-        githubToken: ${{ secrets.TOKEN }}
-        
+        args: "--set-exit-if-changed"
