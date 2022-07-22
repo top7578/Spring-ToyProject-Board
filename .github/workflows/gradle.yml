@@ -34,10 +34,10 @@ jobs:
       run: chmod +x ./gradlew
       
     - name: Build with Gradle
-      run: ./gradlew build
-
-    - name: formatting code
       run: ./gradlew verGJF
+
+#    - name: formatting code
+#      run: ./gradlew verGJF
 
 #    - name: formatting code
 #      run: ./gradlew goJF
