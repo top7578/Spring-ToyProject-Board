@@ -28,7 +28,6 @@ jobs:
       uses: actions/setup-java@v3
       with:
         java-version: '11'
-        distribution: 'temurin'
         
     - name: Change wrapper permissions
       run: chmod +x ./gradlew
@@ -36,8 +35,5 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
 
-    - name: Checking code format  
-      uses: axel-op/googlejavaformat-action@v3
-      with:
-        args: "--skip-sorting-imports --replace"
-        githubToken: ${{ secrets.TOKEN }}
+    - name: Build with Gradle
+      run: ./gradlew goJF
