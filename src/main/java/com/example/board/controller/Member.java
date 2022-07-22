@@ -8,6 +8,7 @@ import lombok.Getter;
 public class Member {
     Long id;
     String name;
+
     public Member(Long id, String name) {
         this.name = name;
     }
