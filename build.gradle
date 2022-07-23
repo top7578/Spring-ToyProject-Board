@@ -25,6 +25,5 @@ tasks.named('test') {
 }
 
 googleJavaFormat {
-    toolVersion = '1.1-SNAPSHOT'
     options style: 'AOSP'
 }
