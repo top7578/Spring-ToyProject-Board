@@ -1,7 +1,6 @@
 package com.example.board.controller;
 
 import org.assertj.core.api.Assertions;
-
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -14,5 +13,4 @@ class MemberTest {
 
         Assertions.assertThat(member.getName()).isEqualTo("jun1");
     }
-
 }
