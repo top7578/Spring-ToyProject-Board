@@ -1,5 +1,6 @@
 package com.example.board.controller;
 
+import com.example.board.domain.Member;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

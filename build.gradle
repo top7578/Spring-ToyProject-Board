@@ -2,7 +2,6 @@ plugins {
     id 'org.springframework.boot' version '2.7.1'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
-    id 'com.github.sherter.google-java-format' version '0.9'
 }
 
 group = 'com.example'
@@ -15,6 +14,7 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
@@ -22,8 +22,4 @@ dependencies {
 
 tasks.named('test') {
     useJUnitPlatform()
-}
-
-googleJavaFormat {
-    options style: 'AOSP'
 }

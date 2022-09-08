@@ -1,4 +1,4 @@
-package com.example.board.controller;
+package com.example.board.domain;
 
 import lombok.Builder;
 import lombok.Getter;
